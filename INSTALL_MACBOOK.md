@@ -37,7 +37,7 @@ end">>.config/function/nvm.fish
 - Install apps from app store
 - Configure Launcbar: allow accessibility, clipboard history to 100
 - Configure sizeUp: allow access, start on login, hide visual action, corner key shortcuts
-
+- Make finder open to new windows instead of tabs
 
 ### Copy stuff from old computer and dropbox:
 ```
