@@ -28,6 +28,7 @@ end">>.config/function/nvm.fish
 - Add homedir to finder sidebar
 - Move focus to next window shortcut
 - Set plain text to textedit `defaults write com.apple.TextEdit RichText -int 0`
+- Open blank document by default `defaults write -g NSShowAppCentricOpenPanelInsteadOfUntitledFile -bool false`
 - Clean dock `defaults write com.apple.dock persistent-apps -array`
 - Configure activity monitor history
 - Configure Dock magnification	
