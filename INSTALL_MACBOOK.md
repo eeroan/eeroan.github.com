@@ -55,7 +55,7 @@ copy .config/fish/functions/*
 ```
 copy .npmrc to project top
 nvm install 6.11.1
-vm install 8
+nvm install 8
 brew services start postgresql
 gem install rhc
 ```
