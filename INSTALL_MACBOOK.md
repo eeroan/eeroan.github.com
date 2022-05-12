@@ -14,7 +14,7 @@ sudo bash -c "echo /opt/homebrew/bin/fish>>/etc/shells"
 chsh -s /opt/homebrew/bin/fish
 curl -Lo ~/.config/fish/functions/fisher.fish --create-dirs https://git.io/fisher
 fisher install edc/bass
-curl -o- https://raw.githubusercontent.com/creationix/nvm/v0.33.8/install.sh | bash
+curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.1/install.sh | bash
 .config/function/nvm.fish:
 echo "function nvm
   bass source ~/.nvm/nvm.sh --no-use ';' nvm $argv
