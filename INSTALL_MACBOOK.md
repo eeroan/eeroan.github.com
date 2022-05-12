@@ -16,9 +16,9 @@ curl -Lo ~/.config/fish/functions/fisher.fish --create-dirs https://git.io/fishe
 fisher install edc/bass
 curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.1/install.sh | bash
 .config/function/nvm.fish:
-echo "function nvm
+function nvm
   bass source ~/.nvm/nvm.sh --no-use ';' nvm $argv
-end">>.config/function/nvm.fish
+end
 ```
 
 ### OSX tweaks
