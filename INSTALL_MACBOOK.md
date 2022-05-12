@@ -54,8 +54,6 @@ copy .config/fish/functions/*
 - Register viscosity and copy settings
 ```
 copy .npmrc to project top
-nvm install 6.11.1
-nvm install 8
+nvm install <version>
 brew services start postgresql
-gem install rhc
 ```
