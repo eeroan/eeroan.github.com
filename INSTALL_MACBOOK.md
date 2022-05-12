@@ -5,8 +5,8 @@
 ```
 /usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
 brew install git fish wget ack node yarn postgresql 
-brew tap caskroom/cask
-brew cask install intellij-idea sizeup launchbar google-chrome virtualbox textmate sketch spotify viscosity vlc flowdock dropbox
+brew tap homebrew/cask
+brew install --cask intellij-idea sizeup launchbar google-chrome virtualbox textmate sketch spotify viscosity vlc dropbox firefox
 ```
 ### Configure fish and nvm
 ```
