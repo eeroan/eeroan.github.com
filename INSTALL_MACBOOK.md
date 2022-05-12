@@ -10,8 +10,8 @@ brew install --cask intellij-idea sizeup launchbar google-chrome virtualbox text
 ```
 ### Configure fish and nvm
 ```
-sudo bash -c "echo /usr/local/bin/fish>>/etc/shells"
-chsh -s /usr/local/bin/fish
+sudo bash -c "echo /opt/homebrew/bin/fish>>/etc/shells"
+chsh -s /opt/homebrew/bin/fish
 curl -Lo ~/.config/fish/functions/fisher.fish --create-dirs https://git.io/fisher
 fisher edc/bass
 curl -o- https://raw.githubusercontent.com/creationix/nvm/v0.33.8/install.sh | bash
