@@ -45,7 +45,7 @@ ln -s Dropbox/drop
 ln -s drop/.vimrc 
 ln -s drop/.npmrc
 ln -s drop/settings/.gitconfig 
-copy .locaL/share/fish/fish_history
+copy .local/share/fish/fish_history
 copy .config/fish/fish.config
 copy .config/fish/functions/*
 ```
@@ -56,4 +56,5 @@ copy .config/fish/functions/*
 copy .npmrc to project top
 nvm install <version>
 brew services start postgresql
+copy xbar and config
 ```
